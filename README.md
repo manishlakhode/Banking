@@ -55,9 +55,10 @@ The goal is to explore customer demographics, financial features, and marketing 
    ```bash
    git clone https://github.com/<your-username>/<repo-name>.git
    cd <repo-name>
-```
+   ```
 
 2. Install dependencies:
+
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
@@ -66,8 +67,9 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 ```bash
 jupyter notebook notebooks/term_deposit_eda.ipynb
 ```
+---
 📈 **Key Insights**
-
+```
 Age, job type, marital status, and education strongly shape customer distribution.
 
 Financial status (balance, loans) is skewed; majority are low-balance holders.
@@ -77,11 +79,13 @@ Marketing strategy relies heavily on short-duration cellular calls in limited mo
 The dataset suffers from class imbalance (very few subscribers).
 
 Feature correlations suggest multiple categorical + numeric variables are relevant for prediction.
-
+```
+---
 📜 **License**
 
 This project is licensed under the MIT License.
 
+---
 👤 **Author**
 
 Manish Lakhode, Contact:
