@@ -70,15 +70,15 @@ jupyter notebook notebooks/term_deposit_eda.ipynb
 ---
 📈 **Key Insights**
 ```
-Age, job type, marital status, and education strongly shape customer distribution.
+1. Age, job type, marital status, and education strongly shape customer distribution.
 
-Financial status (balance, loans) is skewed; majority are low-balance holders.
+2. Financial status (balance, loans) is skewed; majority are low-balance holders.
 
-Marketing strategy relies heavily on short-duration cellular calls in limited months.
+3. Marketing strategy relies heavily on short-duration cellular calls in limited months.
 
-The dataset suffers from class imbalance (very few subscribers).
+4. The dataset suffers from class imbalance (very few subscribers).
 
-Feature correlations suggest multiple categorical + numeric variables are relevant for prediction.
+5. Feature correlations suggest multiple categorical + numeric variables are relevant for prediction.
 ```
 ---
 📜 **License**
